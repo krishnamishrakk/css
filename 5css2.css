@@ -1,0 +1,117 @@
+body{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.box{
+    margin-left: 630px;
+}
+ul{
+    list-style-type: decimal;
+    font-weight: bold;
+}
+.box1{
+    background-color: violet;
+    width: 100px;
+    height: 100px;
+    transition-duration: 3s;
+    cursor: pointer;
+}
+.box1:hover{
+    width: 300px;
+}
+
+.box2{
+    background-color:red;
+    width: 100px;
+    height: 100px;
+    transition-duration: 3s;
+    cursor: pointer;
+}
+.box2:hover{
+    width: 300px;
+    height: 300px;
+}
+
+.box3{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: width 2s linear 0s;
+}
+.box3:hover{
+    width: 300px;
+}
+
+
+.box4{
+    background-color: rgb(238, 130, 144);
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: width 2s ease 0s;
+}
+.box4:hover{
+    width: 300px;
+}
+
+.box5{
+    background-color: violet;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: width 2s ease-in 0s;
+}
+.box5:hover{
+    width: 300px;
+}
+
+.box6{
+    background-color: rgb(238, 182, 130);
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: width 2s ease-out 0s;
+}
+.box6:hover{
+    width: 300px;
+}
+
+.box7{
+    background-color: rgb(130, 150, 238);
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: width 2s ease-in-out 0s;
+}
+.box7:hover{
+    width: 300px;
+}
+
+
+
+
+.back{
+    font-size: 25px;
+    font-weight: bold;
+
+    position: relative;
+    bottom: 15px;
+    left: 700px;
+}
+
+
+.next{
+    color: rgb(0, 255, 98);
+    font-size: 25px;
+    font-weight: bold;
+
+    position: relative;
+    bottom: 10px;
+    left: 700px;
+}
